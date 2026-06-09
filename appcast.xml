@@ -4,11 +4,11 @@
         <title>LaunchOrigo</title>
         <item>
             <title>1.0</title>
-            <pubDate>Mon, 09 Jun 2026 11:47:00 +0800</pubDate>
+            <pubDate>Tue, 09 Jun 2026 12:08:56 +0800</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/timtey88/LaunchOrigo-Releases/releases/download/v1.0/LaunchOrigo-1.0.zip" length="5134764" type="application/octet-stream"/>
+            <enclosure url="https://github.com/timtey88/LaunchOrigo-Releases/releases/download/v1.0/LaunchOrigo-1.0.zip" length="5167000" type="application/octet-stream" sparkle:edSignature="M2iFLPfvFRakffSLJhfdhNY6o38yIKJlnWOavzPikRKaxubm0o8jinp0yg96RVOCjdFXCtyhfVPf1E8qbt+wDg=="/>
         </item>
     </channel>
 </rss>
