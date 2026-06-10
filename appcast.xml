@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>LaunchOrigo</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Wed, 10 Jun 2026 15:26:02 +0800</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/timtey88/LaunchOrigo-Releases/releases/download/v1.0/LaunchOrigo-1.0.zip" length="5279336" type="application/octet-stream" sparkle:edSignature="PVGXpfRNrEWMby8Hwg49wcidXMkVMciolwRk/gdBwGat7uX28mE3C6/yOeiLt/34EB0PKddLcfX9CmPKODw8Cg=="/>
+        </item>
+    </channel>
+</rss>
