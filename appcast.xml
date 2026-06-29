@@ -8,7 +8,7 @@
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>v1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/timtey88/LaunchOrigo-Releases/releases/download/vv1.1.2/LaunchOrigo-v1.1.2.zip" length="5314039" type="application/octet-stream" sparkle:edSignature="2HUnS1/dmPI6WNCOYAjxRdfe5CE9XcXc0B5gUa38pM5RGP1guhNIMSW3t0zjRY5W2PMGHIQOGzstEETo/1A1AA=="/>
+            <enclosure url="https://github.com/timtey88/LaunchOrigo-Releases/releases/download/v1.1.2/LaunchOrigo-v1.1.2.zip" length="5314039" type="application/octet-stream" sparkle:edSignature="2HUnS1/dmPI6WNCOYAjxRdfe5CE9XcXc0B5gUa38pM5RGP1guhNIMSW3t0zjRY5W2PMGHIQOGzstEETo/1A1AA=="/>
         </item>
     </channel>
 </rss>
