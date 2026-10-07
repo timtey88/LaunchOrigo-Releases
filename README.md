@@ -53,7 +53,7 @@ Use [Sparkle](https://sparkle-project.org/) to check manually. Automatic checks 
 
 Publish the signed final ZIP under the matching release tag before updating the feed. Sparkle reads [the GitHub Pages appcast](https://timtey88.github.io/LaunchOrigo-Releases/appcast.xml), so the validated new item must also be deployed in this repository's root `appcast.xml`. Adding `appcast.xml` only as a GitHub Release attachment does not update that URL. Verify Pages deployment, archive URL, byte length, signature, build and minimum OS before marking delivery complete. Preserve previous useful items and immutable released archives.
 
-The 7 October 2026 documentation review inspected source/local feed, not installed release binaries or remote Pages settings. Signing/notarization/update delivery must be verified for each new release; these notes are not certification of a newly tested artifact.
+As of 7 October 2026, local source implements portable v3 backups, recovery, native search and opt-in automatic checks, and deterministic release preparation tooling. These changes have not been published and are not claims about the downloadable release. Unsigned universal test preparation passed; installed signed releases and remote Pages settings remain unverified. Signing/notarization/update delivery must be verified for each new release; these notes are not certification of a newly tested artifact.
 
 ## Security
 
