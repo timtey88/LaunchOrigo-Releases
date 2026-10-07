@@ -26,8 +26,8 @@ LaunchOrigo replaces the macOS Launchpad with a faster, more customizable grid t
 - **Keyboard-first** — arrow keys, type-to-search, return to launch
 - **Drag-and-drop organization** — reorder apps and group them into folders
 - **Customizable interface** — background styles, grid size, page mode
-- **Auto-updates** — built-in via Sparkle, signed and notarized
-- **Export / import** — back up your full layout to a JSON file
+- **Update delivery** — built-in Sparkle updater; use Check for Updates
+- **Export / import** — JSON layout and selected preferences; current version-2 backups do not embed wallpaper images
 
 ## System Requirements
 
@@ -36,18 +36,24 @@ LaunchOrigo replaces the macOS Launchpad with a faster, more customizable grid t
 
 ## Installation
 
-1. Download `LaunchOrigo-x.x.x.zip` from the [latest release](../../releases/latest)
+1. Download `LaunchOrigo-x.x.x.zip` from the [latest release](https://github.com/timtey88/LaunchOrigo-Releases/releases/latest)
 2. Unzip and move `LaunchOrigo.app` to your Applications folder
 3. Launch the app
 
 On first open, macOS may show a Gatekeeper dialog. Click **Open** — the app is signed with a Developer ID certificate and notarized by Apple.
 
-## Auto-Updates
+## Updates
 
-LaunchOrigo checks for updates automatically once per day via [Sparkle](https://sparkle-project.org/). You can also check manually:
+Use [Sparkle](https://sparkle-project.org/) to check manually. Automatic checks default to off in the reviewed source; do not rely on a guaranteed daily background check. Choose:
 
 - Settings → About → Check for Updates
 - Menu bar → Check for Updates
+
+## Maintainer publication notes
+
+Publish the signed final ZIP under the matching release tag before updating the feed. Sparkle reads [the GitHub Pages appcast](https://timtey88.github.io/LaunchOrigo-Releases/appcast.xml), so the validated new item must also be deployed in this repository's root `appcast.xml`. Adding `appcast.xml` only as a GitHub Release attachment does not update that URL. Verify Pages deployment, archive URL, byte length, signature, build and minimum OS before marking delivery complete. Preserve previous useful items and immutable released archives.
+
+The 7 October 2026 documentation review inspected source/local feed, not installed release binaries or remote Pages settings. Signing/notarization/update delivery must be verified for each new release; these notes are not certification of a newly tested artifact.
 
 ## Security
 
