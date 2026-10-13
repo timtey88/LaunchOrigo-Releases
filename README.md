@@ -40,7 +40,7 @@ LaunchOrigo replaces the macOS Launchpad with a faster, more customizable grid t
 2. Unzip and move `LaunchOrigo.app` to your Applications folder
 3. Launch the app
 
-On first open, macOS may show a Gatekeeper dialog. Click **Open** — the app is signed with a Developer ID certificate and notarized by Apple.
+On first open, macOS may show a Gatekeeper dialog. The release process requires Developer ID signing and Apple notarization; verify those results for the specific downloaded archive before opening it. The local source-validation notes below do not certify a newly published artifact.
 
 ## Updates
 
